@@ -1,8 +1,6 @@
-// const CSSInliner = require("css-inliner");
-// const MarkdownIt = require("markdown-it");
+const CSSInliner = require("css-inliner");
+const MarkdownIt = require("markdown-it");
 
-import CSSInliner from "css-inliner";
-import MarkdownIt from "markdown-it";
 import { styles } from "./styles";
 
 /**
