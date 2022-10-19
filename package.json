@@ -1,7 +1,7 @@
 {
   "name": "@yuri2/markdown-parser",
-  "version": "0.2.0",
-  "description": "nodejs执行sh脚本",
+  "version": "0.8.0",
+  "description": "将 markdown 文本转换为带样式的 html",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
@@ -27,8 +27,10 @@
   },
   "homepage": "https://github.com/yuri2peter/npm-markdown-parser#readme",
   "dependencies": {
-    "uuid": "^9.0.0",
-    "fs-extra": "^10.1.0"
+    "css-inliner": "^2.0.0",
+    "fs-extra": "^10.1.0",
+    "markdown-it": "^13.0.1",
+    "uuid": "^9.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.17.10",
